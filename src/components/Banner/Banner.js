@@ -10,9 +10,10 @@ const Banner = () => {
                 <div className='mx-auto'>
                     <h1 className='text-3xl font-bold'>Web Development Roadmaps</h1>
                     <p className='text-2xl font-semibold'>*Front-End Roadmap</p>
-                    <p className='text-lg'>1. HTML</p>
-                    <p className='text-lg'>2. CSS</p>
-                    <p className='text-lg'>3. JavaScript</p>
+                    <p className='text-lg'>1. React</p>
+                    <p className='text-lg'>2. JavaScript</p>
+                    <p className='text-lg'>3. css</p>
+                    <p className='text-lg'>4. Git</p>
                 </div>
             </div>
         </div>

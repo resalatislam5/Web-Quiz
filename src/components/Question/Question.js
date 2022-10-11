@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 const Question = ({ques}) => {
-    const {correctAnswer,question,options, id} =ques;
+    const {correctAnswer,question,options} =ques;
     const handleQues = (option) =>{
         if(option === correctAnswer){
             toast.success('🦄 Correct Answer ', {
