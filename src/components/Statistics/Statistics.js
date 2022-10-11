@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'r
 const Statistics = () => {
     const quiz = useLoaderData(); 
     return (
-        <div>
+        <div className='mt-5 flex justify-center'>
             <LineChart width={730} height={250} data={quiz.data}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <XAxis dataKey="name" />
@@ -12,7 +12,7 @@ const Statistics = () => {
                 <CartesianGrid strokeDasharray="3 3" />
                 <Tooltip />
                 <Legend verticalAlign="top" height={36}/>
-                <Line name="uv of pages" type="monotone" dataKey='total' stroke="#82ca9d" />
+                <Line name="Quiz data" type="monotone" dataKey='total' stroke="#82ca9d" />
             </LineChart>
         </div>
     );
