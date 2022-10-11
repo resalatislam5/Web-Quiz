@@ -4,7 +4,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const QuizCart = ({quiz}) => {
-    const {name, logo, total,id} = quiz
+    const {name, logo, total,id} = quiz;
     return (
         <div className='flex justify-center '>
             <div className="card w-96 bg-gray-300">

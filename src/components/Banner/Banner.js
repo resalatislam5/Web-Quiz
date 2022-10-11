@@ -2,7 +2,7 @@ import React from 'react';
 // import image from '../../public/banner.jpg'
 const Banner = () => {
     return (
-        <div className='my-8'>
+        <div className='lg:my-8 p-5 lg:p-0'>
             <div className='grid lg:grid-cols-2 container mx-auto items-center'>
                 <div>
                     <img className='w-full rounded-lg' src='https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cXVpenxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' alt="img" />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-200 py-6 mt-5'>
+        <div className='bg-gray-200 py-6 mt-5 fixed bottom-0 w-full'>
             <h3 className='text-center text-2xl'>@ Web Quiz</h3>
         </div>
     );

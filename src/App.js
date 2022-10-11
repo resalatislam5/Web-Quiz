@@ -24,7 +24,7 @@ function App() {
       return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
     },
     element:<QuizDetails></QuizDetails>},
-    {path:'*', element:<div><h1 className='text-3xl font-bold text-center mt-5'>This page are not available</h1></div>}
+    {path:'*', element:<div><h1 className='text-3xl font-bold text-center mt-5'>This page are not available:404</h1></div>}
   ]
 },
   ])
