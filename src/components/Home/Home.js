@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Banner from '../../Banner/Banner';
-import QuizCart from '../../QuizCart/QuizCart';
+import Banner from '../Banner/Banner';
+import QuizCart from '../QuizCart/QuizCart';
 
 const Home = () => {
     const quizs = useLoaderData();
