@@ -4,8 +4,8 @@ const Blog = () => {
     return (
         <div className='container mx-auto my-5'>
             <div className='shadow-lg p-5 rounded-lg'>
-                <h1 className='text-xl font-semibold'>1. What is the purpose of react?</h1>
-                <p className='py-1'>Ans: React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike. The main concept of React. js is virtual DOM</p>
+                <h1 className='text-xl font-semibold'>1. What is the purpose of react router?</h1>
+                <p className='py-1'>Ans: React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.</p>
             </div>
             <div className='shadow-lg p-5 rounded-lg'>
                 <h1 className='text-xl font-semibold'>2. How does context api work?</h1>
