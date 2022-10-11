@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, } from '
 const Statistics = () => {
     const quiz = useLoaderData(); 
     return (
-        <div className='mt-5 flex justify-center w-96'>
+        <div className='mt-5 flex justify-center'>
             <LineChart width={730} height={250} data={quiz.data}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <XAxis dataKey="name" />
